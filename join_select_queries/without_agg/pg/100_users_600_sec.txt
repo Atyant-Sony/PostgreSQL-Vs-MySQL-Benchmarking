@@ -1,0 +1,310 @@
+sysbench 1.0.20 (using system LuaJIT 2.1.1727870382)
+
+Running the test with following options:
+Number of threads: 100
+Initializing random number generator from current time
+
+
+Initializing worker threads...
+
+Threads started!
+
+FATAL: PQexec() failed: 7 could not write to file "base/pgsql_tmp/pgsql_tmp98932.83": No space left on device
+FATAL: failed query was: select * from visit_reasons vr join visit v on v.id = vr.visit_id join reason r on r.id = vr.reason_id;
+FATAL: `thread_run' function failed: benchmarking.lua:13: SQL error, errno = 0, state = '53100': could not write to file "base/pgsql_tmp/pgsql_tmp98932.83": No space left on device
+FATAL: PQexec() failed: 7 could not write to file "base/pgsql_tmp/pgsql_tmp98988.106": No space left on device
+FATAL: failed query was: select * from visit_reasons vr join visit v on v.id = vr.visit_id join reason r on r.id = vr.reason_id;
+FATAL: `thread_run' function failed: benchmarking.lua:13: SQL error, errno = 0, state = '53100': could not write to file "base/pgsql_tmp/pgsql_tmp98988.106": No space left on device
+FATAL: PQexec() failed: 7 could not write to file "base/pgsql_tmp/pgsql_tmp98965.104": No space left on device
+FATAL: failed query was: select * from visit_reasons vr join visit v on v.id = vr.visit_id join reason r on r.id = vr.reason_id;
+FATAL: `thread_run' function failed: benchmarking.lua:13: SQL error, errno = 0, state = '53100': could not write to file "base/pgsql_tmp/pgsql_tmp98965.104": No space left on device
+FATAL: PQexec() failed: 7 could not write to file "base/pgsql_tmp/pgsql_tmp98941.70": No space left on device
+FATAL: failed query was: select * from visit_reasons vr join visit v on v.id = vr.visit_id join reason r on r.id = vr.reason_id;
+FATAL: `thread_run' function failed: benchmarking.lua:13: SQL error, errno = 0, state = '53100': could not write to file "base/pgsql_tmp/pgsql_tmp98941.70": No space left on device
+FATAL: PQexec() failed: 7 could not write to file "base/pgsql_tmp/pgsql_tmp98957.122": No space left on device
+FATAL: failed query was: select * from visit_reasons vr join visit v on v.id = vr.visit_id join reason r on r.id = vr.reason_id;
+FATAL: `thread_run' function failed: benchmarking.lua:13: SQL error, errno = 0, state = '53100': could not write to file "base/pgsql_tmp/pgsql_tmp98957.122": No space left on device
+FATAL: PQexec() failed: 7 could not write to file "base/pgsql_tmp/pgsql_tmp98940.98": No space left on device
+FATAL: failed query was: select * from visit_reasons vr join visit v on v.id = vr.visit_id join reason r on r.id = vr.reason_id;
+FATAL: `thread_run' function failed: benchmarking.lua:13: SQL error, errno = 0, state = '53100': could not write to file "base/pgsql_tmp/pgsql_tmp98940.98": No space left on device
+FATAL: PQexec() failed: 7 could not write to file "base/pgsql_tmp/pgsql_tmp98982.116": No space left on device
+FATAL: failed query was: select * from visit_reasons vr join visit v on v.id = vr.visit_id join reason r on r.id = vr.reason_id;
+FATAL: `thread_run' function failed: benchmarking.lua:13: SQL error, errno = 0, state = '53100': could not write to file "base/pgsql_tmp/pgsql_tmp98982.116": No space left on device
+FATAL: PQexec() failed: 7 could not write to file "base/pgsql_tmp/pgsql_tmp98934.89": No space left on device
+FATAL: failed query was: select * from visit_reasons vr join visit v on v.id = vr.visit_id join reason r on r.id = vr.reason_id;
+FATAL: `thread_run' function failed: benchmarking.lua:13: SQL error, errno = 0, state = '53100': could not write to file "base/pgsql_tmp/pgsql_tmp98934.89": No space left on device
+FATAL: PQexec() failed: 7 could not write to file "base/pgsql_tmp/pgsql_tmp98942.85": No space left on device
+FATAL: failed query was: select * from visit_reasons vr join visit v on v.id = vr.visit_id join reason r on r.id = vr.reason_id;
+FATAL: `thread_run' function failed: benchmarking.lua:13: SQL error, errno = 0, state = '53100': could not write to file "base/pgsql_tmp/pgsql_tmp98942.85": No space left on device
+FATAL: PQexec() failed: 7 could not write to file "base/pgsql_tmp/pgsql_tmp98948.123": No space left on device
+FATAL: failed query was: select * from visit_reasons vr join visit v on v.id = vr.visit_id join reason r on r.id = vr.reason_id;
+FATAL: `thread_run' function failed: benchmarking.lua:13: SQL error, errno = 0, state = '53100': could not write to file "base/pgsql_tmp/pgsql_tmp98948.123": No space left on device
+FATAL: PQexec() failed: 7 could not write to file "base/pgsql_tmp/pgsql_tmp98990.66": No space left on device
+FATAL: failed query was: select * from visit_reasons vr join visit v on v.id = vr.visit_id join reason r on r.id = vr.reason_id;
+FATAL: `thread_run' function failed: benchmarking.lua:13: SQL error, errno = 0, state = '53100': could not write to file "base/pgsql_tmp/pgsql_tmp98990.66": No space left on device
+FATAL: PQexec() failed: 7 could not write to file "base/pgsql_tmp/pgsql_tmp98936.125": No space left on device
+FATAL: failed query was: select * from visit_reasons vr join visit v on v.id = vr.visit_id join reason r on r.id = vr.reason_id;
+FATAL: `thread_run' function failed: benchmarking.lua:13: SQL error, errno = 0, state = '53100': could not write to file "base/pgsql_tmp/pgsql_tmp98936.125": No space left on device
+FATAL: PQexec() failed: 7 could not write to file "base/pgsql_tmp/pgsql_tmp98958.119": No space left on device
+FATAL: failed query was: select * from visit_reasons vr join visit v on v.id = vr.visit_id join reason r on r.id = vr.reason_id;
+FATAL: `thread_run' function failed: benchmarking.lua:13: SQL error, errno = 0, state = '53100': could not write to file "base/pgsql_tmp/pgsql_tmp98958.119": No space left on device
+FATAL: PQexec() failed: 7 could not write to file "base/pgsql_tmp/pgsql_tmp98987.118": No space left on device
+FATAL: failed query was: select * from visit_reasons vr join visit v on v.id = vr.visit_id join reason r on r.id = vr.reason_id;
+FATAL: `thread_run' function failed: benchmarking.lua:13: SQL error, errno = 0, state = '53100': could not write to file "base/pgsql_tmp/pgsql_tmp98987.118": No space left on device
+FATAL: PQexec() failed: 7 could not write to file "base/pgsql_tmp/pgsql_tmp98951.89": No space left on device
+FATAL: failed query was: select * from visit_reasons vr join visit v on v.id = vr.visit_id join reason r on r.id = vr.reason_id;
+FATAL: `thread_run' function failed: benchmarking.lua:13: SQL error, errno = 0, state = '53100': could not write to file "base/pgsql_tmp/pgsql_tmp98951.89": No space left on device
+FATAL: PQexec() failed: 7 could not write to file "base/pgsql_tmp/pgsql_tmp98996.107": No space left on device
+FATAL: failed query was: select * from visit_reasons vr join visit v on v.id = vr.visit_id join reason r on r.id = vr.reason_id;
+FATAL: `thread_run' function failed: benchmarking.lua:13: SQL error, errno = 0, state = '53100': could not write to file "base/pgsql_tmp/pgsql_tmp98996.107": No space left on device
+FATAL: PQexec() failed: 7 could not write to file "base/pgsql_tmp/pgsql_tmp98970.75": No space left on device
+FATAL: failed query was: select * from visit_reasons vr join visit v on v.id = vr.visit_id join reason r on r.id = vr.reason_id;
+FATAL: `thread_run' function failed: benchmarking.lua:13: SQL error, errno = 0, state = '53100': could not write to file "base/pgsql_tmp/pgsql_tmp98970.75": No space left on device
+FATAL: PQexec() failed: 7 could not write to file "base/pgsql_tmp/pgsql_tmp98981.92": No space left on device
+FATAL: failed query was: select * from visit_reasons vr join visit v on v.id = vr.visit_id join reason r on r.id = vr.reason_id;
+FATAL: `thread_run' function failed: benchmarking.lua:13: SQL error, errno = 0, state = '53100': could not write to file "base/pgsql_tmp/pgsql_tmp98981.92": No space left on device
+FATAL: PQexec() failed: 7 could not write to file "base/pgsql_tmp/pgsql_tmp98949.77": No space left on device
+FATAL: failed query was: select * from visit_reasons vr join visit v on v.id = vr.visit_id join reason r on r.id = vr.reason_id;
+FATAL: `thread_run' function failed: benchmarking.lua:13: SQL error, errno = 0, state = '53100': could not write to file "base/pgsql_tmp/pgsql_tmp98949.77": No space left on device
+FATAL: PQexec() failed: 7 could not write to file "base/pgsql_tmp/pgsql_tmp98955.111": No space left on device
+FATAL: failed query was: select * from visit_reasons vr join visit v on v.id = vr.visit_id join reason r on r.id = vr.reason_id;
+FATAL: `thread_run' function failed: benchmarking.lua:13: SQL error, errno = 0, state = '53100': could not write to file "base/pgsql_tmp/pgsql_tmp98955.111": No space left on device
+FATAL: PQexec() failed: 7 could not write to file "base/pgsql_tmp/pgsql_tmp98921.95": No space left on device
+FATAL: failed query was: select * from visit_reasons vr join visit v on v.id = vr.visit_id join reason r on r.id = vr.reason_id;
+FATAL: `thread_run' function failed: benchmarking.lua:13: SQL error, errno = 0, state = '53100': could not write to file "base/pgsql_tmp/pgsql_tmp98921.95": No space left on device
+FATAL: PQexec() failed: 7 could not write to file "base/pgsql_tmp/pgsql_tmp98972.89": No space left on device
+FATAL: failed query was: select * from visit_reasons vr join visit v on v.id = vr.visit_id join reason r on r.id = vr.reason_id;
+FATAL: `thread_run' function failed: benchmarking.lua:13: SQL error, errno = 0, state = '53100': could not write to file "base/pgsql_tmp/pgsql_tmp98972.89": No space left on device
+FATAL: PQexec() failed: 7 could not write to file "base/pgsql_tmp/pgsql_tmp98900.91": No space left on device
+FATAL: failed query was: select * from visit_reasons vr join visit v on v.id = vr.visit_id join reason r on r.id = vr.reason_id;
+FATAL: `thread_run' function failed: benchmarking.lua:13: SQL error, errno = 0, state = '53100': could not write to file "base/pgsql_tmp/pgsql_tmp98900.91": No space left on device
+FATAL: PQexec() failed: 7 could not write to file "base/pgsql_tmp/pgsql_tmp98978.116": No space left on device
+FATAL: failed query was: select * from visit_reasons vr join visit v on v.id = vr.visit_id join reason r on r.id = vr.reason_id;
+FATAL: `thread_run' function failed: benchmarking.lua:13: SQL error, errno = 0, state = '53100': could not write to file "base/pgsql_tmp/pgsql_tmp98978.116": No space left on device
+FATAL: PQexec() failed: 7 could not write to file "base/pgsql_tmp/pgsql_tmp98960.80": No space left on device
+FATAL: failed query was: select * from visit_reasons vr join visit v on v.id = vr.visit_id join reason r on r.id = vr.reason_id;
+FATAL: `thread_run' function failed: benchmarking.lua:13: SQL error, errno = 0, state = '53100': could not write to file "base/pgsql_tmp/pgsql_tmp98960.80": No space left on device
+FATAL: PQexec() failed: 7 could not write to file "base/pgsql_tmp/pgsql_tmp98907.64": No space left on device
+FATAL: failed query was: select * from visit_reasons vr join visit v on v.id = vr.visit_id join reason r on r.id = vr.reason_id;
+FATAL: `thread_run' function failed: benchmarking.lua:13: SQL error, errno = 0, state = '53100': could not write to file "base/pgsql_tmp/pgsql_tmp98907.64": No space left on device
+FATAL: PQexec() failed: 7 could not write to file "base/pgsql_tmp/pgsql_tmp98983.102": No space left on device
+FATAL: failed query was: select * from visit_reasons vr join visit v on v.id = vr.visit_id join reason r on r.id = vr.reason_id;
+FATAL: `thread_run' function failed: benchmarking.lua:13: SQL error, errno = 0, state = '53100': could not write to file "base/pgsql_tmp/pgsql_tmp98983.102": No space left on device
+FATAL: PQexec() failed: 7 could not write to file "base/pgsql_tmp/pgsql_tmp98917.106": No space left on device
+FATAL: failed query was: select * from visit_reasons vr join visit v on v.id = vr.visit_id join reason r on r.id = vr.reason_id;
+FATAL: `thread_run' function failed: benchmarking.lua:13: SQL error, errno = 0, state = '53100': could not write to file "base/pgsql_tmp/pgsql_tmp98917.106": No space left on device
+FATAL: PQexec() failed: 7 could not write to file "base/pgsql_tmp/pgsql_tmp98950.108": No space left on device
+FATAL: failed query was: select * from visit_reasons vr join visit v on v.id = vr.visit_id join reason r on r.id = vr.reason_id;
+FATAL: `thread_run' function failed: benchmarking.lua:13: SQL error, errno = 0, state = '53100': could not write to file "base/pgsql_tmp/pgsql_tmp98950.108": No space left on device
+FATAL: PQexec() failed: 7 could not write to file "base/pgsql_tmp/pgsql_tmp98903.85": No space left on device
+FATAL: failed query was: select * from visit_reasons vr join visit v on v.id = vr.visit_id join reason r on r.id = vr.reason_id;
+FATAL: `thread_run' function failed: benchmarking.lua:13: SQL error, errno = 0, state = '53100': could not write to file "base/pgsql_tmp/pgsql_tmp98903.85": No space left on device
+FATAL: PQexec() failed: 7 could not write to file "base/pgsql_tmp/pgsql_tmp98959.93": No space left on device
+FATAL: failed query was: select * from visit_reasons vr join visit v on v.id = vr.visit_id join reason r on r.id = vr.reason_id;
+FATAL: `thread_run' function failed: benchmarking.lua:13: SQL error, errno = 0, state = '53100': could not write to file "base/pgsql_tmp/pgsql_tmp98959.93": No space left on device
+FATAL: PQexec() failed: 7 could not write to file "base/pgsql_tmp/pgsql_tmp98925.122": No space left on device
+FATAL: failed query was: select * from visit_reasons vr join visit v on v.id = vr.visit_id join reason r on r.id = vr.reason_id;
+FATAL: `thread_run' function failed: benchmarking.lua:13: SQL error, errno = 0, state = '53100': could not write to file "base/pgsql_tmp/pgsql_tmp98925.122": No space left on device
+FATAL: PQexec() failed: 7 could not write to file "base/pgsql_tmp/pgsql_tmp98962.65": No space left on device
+FATAL: failed query was: select * from visit_reasons vr join visit v on v.id = vr.visit_id join reason r on r.id = vr.reason_id;
+FATAL: `thread_run' function failed: benchmarking.lua:13: SQL error, errno = 0, state = '53100': could not write to file "base/pgsql_tmp/pgsql_tmp98962.65": No space left on device
+FATAL: PQexec() failed: 7 could not write to file "base/pgsql_tmp/pgsql_tmp98899.108": No space left on device
+FATAL: failed query was: select * from visit_reasons vr join visit v on v.id = vr.visit_id join reason r on r.id = vr.reason_id;
+FATAL: `thread_run' function failed: benchmarking.lua:13: SQL error, errno = 0, state = '53100': could not write to file "base/pgsql_tmp/pgsql_tmp98899.108": No space left on device
+FATAL: PQexec() failed: 7 could not write to file "base/pgsql_tmp/pgsql_tmp98919.83": No space left on device
+FATAL: failed query was: select * from visit_reasons vr join visit v on v.id = vr.visit_id join reason r on r.id = vr.reason_id;
+FATAL: `thread_run' function failed: benchmarking.lua:13: SQL error, errno = 0, state = '53100': could not write to file "base/pgsql_tmp/pgsql_tmp98919.83": No space left on device
+FATAL: PQexec() failed: 7 could not write to file "base/pgsql_tmp/pgsql_tmp98902.88": No space left on device
+FATAL: failed query was: select * from visit_reasons vr join visit v on v.id = vr.visit_id join reason r on r.id = vr.reason_id;
+FATAL: `thread_run' function failed: benchmarking.lua:13: SQL error, errno = 0, state = '53100': could not write to file "base/pgsql_tmp/pgsql_tmp98902.88": No space left on device
+FATAL: PQexec() failed: 7 could not write to file "base/pgsql_tmp/pgsql_tmp98926.99": No space left on device
+FATAL: failed query was: select * from visit_reasons vr join visit v on v.id = vr.visit_id join reason r on r.id = vr.reason_id;
+FATAL: `thread_run' function failed: benchmarking.lua:13: SQL error, errno = 0, state = '53100': could not write to file "base/pgsql_tmp/pgsql_tmp98926.99": No space left on device
+FATAL: PQexec() failed: 7 could not write to file "base/pgsql_tmp/pgsql_tmp98927.82": No space left on device
+FATAL: PQexec() failed: 7 could not write to file "base/pgsql_tmp/pgsql_tmp98911.124": No space left on device
+FATAL: failed query was: select * from visit_reasons vr join visit v on v.id = vr.visit_id join reason r on r.id = vr.reason_id;
+(last message repeated 1 times)
+FATAL: `thread_run' function failed: benchmarking.lua:13: SQL error, errno = 0, state = '53100': could not write to file "base/pgsql_tmp/pgsql_tmp98911.124": No space left on device
+FATAL: `thread_run' function failed: benchmarking.lua:13: SQL error, errno = 0, state = '53100': could not write to file "base/pgsql_tmp/pgsql_tmp98927.82": No space left on device
+FATAL: PQexec() failed: 7 could not write to file "base/pgsql_tmp/pgsql_tmp98898.105": No space left on device
+FATAL: failed query was: select * from visit_reasons vr join visit v on v.id = vr.visit_id join reason r on r.id = vr.reason_id;
+FATAL: `thread_run' function failed: benchmarking.lua:13: SQL error, errno = 0, state = '53100': could not write to file "base/pgsql_tmp/pgsql_tmp98898.105": No space left on device
+FATAL: PQexec() failed: 7 could not write to file "base/pgsql_tmp/pgsql_tmp98968.105": No space left on device
+FATAL: failed query was: select * from visit_reasons vr join visit v on v.id = vr.visit_id join reason r on r.id = vr.reason_id;
+FATAL: `thread_run' function failed: benchmarking.lua:13: SQL error, errno = 0, state = '53100': could not write to file "base/pgsql_tmp/pgsql_tmp98968.105": No space left on device
+FATAL: PQexec() failed: 7 could not write to file "base/pgsql_tmp/pgsql_tmp98947.102": No space left on device
+FATAL: failed query was: select * from visit_reasons vr join visit v on v.id = vr.visit_id join reason r on r.id = vr.reason_id;
+FATAL: `thread_run' function failed: benchmarking.lua:13: SQL error, errno = 0, state = '53100': could not write to file "base/pgsql_tmp/pgsql_tmp98947.102": No space left on device
+FATAL: PQexec() failed: 7 could not write to file "base/pgsql_tmp/pgsql_tmp98908.113": No space left on device
+FATAL: failed query was: select * from visit_reasons vr join visit v on v.id = vr.visit_id join reason r on r.id = vr.reason_id;
+FATAL: `thread_run' function failed: benchmarking.lua:13: SQL error, errno = 0, state = '53100': could not write to file "base/pgsql_tmp/pgsql_tmp98908.113": No space left on device
+FATAL: PQexec() failed: 7 could not write to file "base/pgsql_tmp/pgsql_tmp98901.111": No space left on device
+FATAL: failed query was: select * from visit_reasons vr join visit v on v.id = vr.visit_id join reason r on r.id = vr.reason_id;
+FATAL: `thread_run' function failed: benchmarking.lua:13: SQL error, errno = 0, state = '53100': could not write to file "base/pgsql_tmp/pgsql_tmp98901.111": No space left on device
+FATAL: PQexec() failed: 7 could not write to file "base/pgsql_tmp/pgsql_tmp98974.78": No space left on device
+FATAL: failed query was: select * from visit_reasons vr join visit v on v.id = vr.visit_id join reason r on r.id = vr.reason_id;
+FATAL: `thread_run' function failed: benchmarking.lua:13: SQL error, errno = 0, state = '53100': could not write to file "base/pgsql_tmp/pgsql_tmp98974.78": No space left on device
+FATAL: PQexec() failed: 7 could not write to file "base/pgsql_tmp/pgsql_tmp98980.119": No space left on device
+FATAL: failed query was: select * from visit_reasons vr join visit v on v.id = vr.visit_id join reason r on r.id = vr.reason_id;
+FATAL: `thread_run' function failed: benchmarking.lua:13: SQL error, errno = 0, state = '53100': could not write to file "base/pgsql_tmp/pgsql_tmp98980.119": No space left on device
+FATAL: PQexec() failed: 7 could not write to file "base/pgsql_tmp/pgsql_tmp98961.110": No space left on device
+FATAL: failed query was: select * from visit_reasons vr join visit v on v.id = vr.visit_id join reason r on r.id = vr.reason_id;
+FATAL: `thread_run' function failed: benchmarking.lua:13: SQL error, errno = 0, state = '53100': could not write to file "base/pgsql_tmp/pgsql_tmp98961.110": No space left on device
+FATAL: PQexec() failed: 7 could not write to file "base/pgsql_tmp/pgsql_tmp98953.80": No space left on device
+FATAL: failed query was: select * from visit_reasons vr join visit v on v.id = vr.visit_id join reason r on r.id = vr.reason_id;
+FATAL: `thread_run' function failed: benchmarking.lua:13: SQL error, errno = 0, state = '53100': could not write to file "base/pgsql_tmp/pgsql_tmp98953.80": No space left on device
+FATAL: PQexec() failed: 7 could not write to file "base/pgsql_tmp/pgsql_tmp98915.74": No space left on device
+FATAL: failed query was: select * from visit_reasons vr join visit v on v.id = vr.visit_id join reason r on r.id = vr.reason_id;
+FATAL: `thread_run' function failed: benchmarking.lua:13: SQL error, errno = 0, state = '53100': could not write to file "base/pgsql_tmp/pgsql_tmp98915.74": No space left on device
+FATAL: PQexec() failed: 7 could not write to file "base/pgsql_tmp/pgsql_tmp98939.100": No space left on device
+FATAL: failed query was: select * from visit_reasons vr join visit v on v.id = vr.visit_id join reason r on r.id = vr.reason_id;
+FATAL: `thread_run' function failed: benchmarking.lua:13: SQL error, errno = 0, state = '53100': could not write to file "base/pgsql_tmp/pgsql_tmp98939.100": No space left on device
+FATAL: PQexec() failed: 7 could not write to file "base/pgsql_tmp/pgsql_tmp98912.122": No space left on device
+FATAL: failed query was: select * from visit_reasons vr join visit v on v.id = vr.visit_id join reason r on r.id = vr.reason_id;
+FATAL: `thread_run' function failed: benchmarking.lua:13: SQL error, errno = 0, state = '53100': could not write to file "base/pgsql_tmp/pgsql_tmp98912.122": No space left on device
+FATAL: PQexec() failed: 7 could not write to file "base/pgsql_tmp/pgsql_tmp98975.99": No space left on device
+FATAL: failed query was: select * from visit_reasons vr join visit v on v.id = vr.visit_id join reason r on r.id = vr.reason_id;
+FATAL: `thread_run' function failed: benchmarking.lua:13: SQL error, errno = 0, state = '53100': could not write to file "base/pgsql_tmp/pgsql_tmp98975.99": No space left on device
+FATAL: PQexec() failed: 7 could not write to file "base/pgsql_tmp/pgsql_tmp98914.101": No space left on device
+FATAL: failed query was: select * from visit_reasons vr join visit v on v.id = vr.visit_id join reason r on r.id = vr.reason_id;
+FATAL: `thread_run' function failed: benchmarking.lua:13: SQL error, errno = 0, state = '53100': could not write to file "base/pgsql_tmp/pgsql_tmp98914.101": No space left on device
+FATAL: PQexec() failed: 7 could not write to file "base/pgsql_tmp/pgsql_tmp98929.65": No space left on device
+FATAL: failed query was: select * from visit_reasons vr join visit v on v.id = vr.visit_id join reason r on r.id = vr.reason_id;
+FATAL: `thread_run' function failed: benchmarking.lua:13: SQL error, errno = 0, state = '53100': could not write to file "base/pgsql_tmp/pgsql_tmp98929.65": No space left on device
+FATAL: PQexec() failed: 7 could not write to file "base/pgsql_tmp/pgsql_tmp98984.117": No space left on device
+FATAL: failed query was: select * from visit_reasons vr join visit v on v.id = vr.visit_id join reason r on r.id = vr.reason_id;
+FATAL: `thread_run' function failed: benchmarking.lua:13: SQL error, errno = 0, state = '53100': could not write to file "base/pgsql_tmp/pgsql_tmp98984.117": No space left on device
+FATAL: PQexec() failed: 7 could not write to file "base/pgsql_tmp/pgsql_tmp98943.69": No space left on device
+FATAL: failed query was: select * from visit_reasons vr join visit v on v.id = vr.visit_id join reason r on r.id = vr.reason_id;
+FATAL: `thread_run' function failed: benchmarking.lua:13: SQL error, errno = 0, state = '53100': could not write to file "base/pgsql_tmp/pgsql_tmp98943.69": No space left on device
+FATAL: PQexec() failed: 7 could not write to file "base/pgsql_tmp/pgsql_tmp98971.91": No space left on device
+FATAL: failed query was: select * from visit_reasons vr join visit v on v.id = vr.visit_id join reason r on r.id = vr.reason_id;
+FATAL: `thread_run' function failed: benchmarking.lua:13: SQL error, errno = 0, state = '53100': could not write to file "base/pgsql_tmp/pgsql_tmp98971.91": No space left on device
+FATAL: PQexec() failed: 7 could not write to file "base/pgsql_tmp/pgsql_tmp98904.79": No space left on device
+FATAL: failed query was: select * from visit_reasons vr join visit v on v.id = vr.visit_id join reason r on r.id = vr.reason_id;
+FATAL: `thread_run' function failed: benchmarking.lua:13: SQL error, errno = 0, state = '53100': could not write to file "base/pgsql_tmp/pgsql_tmp98904.79": No space left on device
+FATAL: PQexec() failed: 7 could not write to file "base/pgsql_tmp/pgsql_tmp98923.114": No space left on device
+FATAL: failed query was: select * from visit_reasons vr join visit v on v.id = vr.visit_id join reason r on r.id = vr.reason_id;
+FATAL: `thread_run' function failed: benchmarking.lua:13: SQL error, errno = 0, state = '53100': could not write to file "base/pgsql_tmp/pgsql_tmp98923.114": No space left on device
+FATAL: PQexec() failed: 7 could not write to file "base/pgsql_tmp/pgsql_tmp98937.114": No space left on device
+FATAL: failed query was: select * from visit_reasons vr join visit v on v.id = vr.visit_id join reason r on r.id = vr.reason_id;
+FATAL: `thread_run' function failed: benchmarking.lua:13: SQL error, errno = 0, state = '53100': could not write to file "base/pgsql_tmp/pgsql_tmp98937.114": No space left on device
+FATAL: PQexec() failed: 7 could not write to file "base/pgsql_tmp/pgsql_tmp98945.87": No space left on device
+FATAL: failed query was: select * from visit_reasons vr join visit v on v.id = vr.visit_id join reason r on r.id = vr.reason_id;
+FATAL: `thread_run' function failed: benchmarking.lua:13: SQL error, errno = 0, state = '53100': could not write to file "base/pgsql_tmp/pgsql_tmp98945.87": No space left on device
+FATAL: PQexec() failed: 7 could not write to file "base/pgsql_tmp/pgsql_tmp98997.80": No space left on device
+FATAL: failed query was: select * from visit_reasons vr join visit v on v.id = vr.visit_id join reason r on r.id = vr.reason_id;
+FATAL: `thread_run' function failed: benchmarking.lua:13: SQL error, errno = 0, state = '53100': could not write to file "base/pgsql_tmp/pgsql_tmp98997.80": No space left on device
+FATAL: PQexec() failed: 7 could not write to file "base/pgsql_tmp/pgsql_tmp98944.125": No space left on device
+FATAL: failed query was: select * from visit_reasons vr join visit v on v.id = vr.visit_id join reason r on r.id = vr.reason_id;
+FATAL: `thread_run' function failed: benchmarking.lua:13: SQL error, errno = 0, state = '53100': could not write to file "base/pgsql_tmp/pgsql_tmp98944.125": No space left on device
+FATAL: PQexec() failed: 7 could not write to file "base/pgsql_tmp/pgsql_tmp98910.118": No space left on device
+FATAL: failed query was: select * from visit_reasons vr join visit v on v.id = vr.visit_id join reason r on r.id = vr.reason_id;
+FATAL: `thread_run' function failed: benchmarking.lua:13: SQL error, errno = 0, state = '53100': could not write to file "base/pgsql_tmp/pgsql_tmp98910.118": No space left on device
+FATAL: PQexec() failed: 7 could not write to file "base/pgsql_tmp/pgsql_tmp98993.100": No space left on device
+FATAL: PQexec() failed: 7 could not write to file "base/pgsql_tmp/pgsql_tmp98963.89": No space left on device
+FATAL: failed query was: select * from visit_reasons vr join visit v on v.id = vr.visit_id join reason r on r.id = vr.reason_id;
+FATAL: `thread_run' function failed: benchmarking.lua:13: SQL error, errno = 0, state = '53100': could not write to file "base/pgsql_tmp/pgsql_tmp98963.89": No space left on device
+FATAL: failed query was: select * from visit_reasons vr join visit v on v.id = vr.visit_id join reason r on r.id = vr.reason_id;
+FATAL: `thread_run' function failed: benchmarking.lua:13: SQL error, errno = 0, state = '53100': could not write to file "base/pgsql_tmp/pgsql_tmp98993.100": No space left on device
+FATAL: PQexec() failed: 7 could not write to file "base/pgsql_tmp/pgsql_tmp98933.117": No space left on device
+FATAL: PQexec() failed: 7 could not write to file "base/pgsql_tmp/pgsql_tmp98973.63": No space left on device
+FATAL: failed query was: select * from visit_reasons vr join visit v on v.id = vr.visit_id join reason r on r.id = vr.reason_id;
+(last message repeated 1 times)
+FATAL: `thread_run' function failed: benchmarking.lua:13: SQL error, errno = 0, state = '53100': could not write to file "base/pgsql_tmp/pgsql_tmp98973.63": No space left on device
+FATAL: `thread_run' function failed: benchmarking.lua:13: SQL error, errno = 0, state = '53100': could not write to file "base/pgsql_tmp/pgsql_tmp98933.117": No space left on device
+FATAL: PQexec() failed: 7 could not write to file "base/pgsql_tmp/pgsql_tmp98946.105": No space left on device
+FATAL: failed query was: select * from visit_reasons vr join visit v on v.id = vr.visit_id join reason r on r.id = vr.reason_id;
+FATAL: `thread_run' function failed: benchmarking.lua:13: SQL error, errno = 0, state = '53100': could not write to file "base/pgsql_tmp/pgsql_tmp98946.105": No space left on device
+FATAL: PQexec() failed: 7 could not write to file "base/pgsql_tmp/pgsql_tmp98928.104": No space left on device
+FATAL: failed query was: select * from visit_reasons vr join visit v on v.id = vr.visit_id join reason r on r.id = vr.reason_id;
+FATAL: `thread_run' function failed: benchmarking.lua:13: SQL error, errno = 0, state = '53100': could not write to file "base/pgsql_tmp/pgsql_tmp98928.104": No space left on device
+FATAL: PQexec() failed: 7 could not write to file "base/pgsql_tmp/pgsql_tmp98905.90": No space left on device
+FATAL: failed query was: select * from visit_reasons vr join visit v on v.id = vr.visit_id join reason r on r.id = vr.reason_id;
+FATAL: `thread_run' function failed: benchmarking.lua:13: SQL error, errno = 0, state = '53100': could not write to file "base/pgsql_tmp/pgsql_tmp98905.90": No space left on device
+FATAL: PQexec() failed: 7 could not write to file "base/pgsql_tmp/pgsql_tmp98938.118": No space left on device
+FATAL: failed query was: select * from visit_reasons vr join visit v on v.id = vr.visit_id join reason r on r.id = vr.reason_id;
+FATAL: PQexec() failed: 7 could not write to file "base/pgsql_tmp/pgsql_tmp98922.97": No space left on device
+FATAL: failed query was: select * from visit_reasons vr join visit v on v.id = vr.visit_id join reason r on r.id = vr.reason_id;
+FATAL: `thread_run' function failed: benchmarking.lua:13: SQL error, errno = 0, state = '53100': could not write to file "base/pgsql_tmp/pgsql_tmp98938.118": No space left on device
+FATAL: `thread_run' function failed: benchmarking.lua:13: SQL error, errno = 0, state = '53100': could not write to file "base/pgsql_tmp/pgsql_tmp98922.97": No space left on device
+FATAL: PQexec() failed: 7 could not write to file "base/pgsql_tmp/pgsql_tmp98956.80": No space left on device
+FATAL: failed query was: select * from visit_reasons vr join visit v on v.id = vr.visit_id join reason r on r.id = vr.reason_id;
+FATAL: `thread_run' function failed: benchmarking.lua:13: SQL error, errno = 0, state = '53100': could not write to file "base/pgsql_tmp/pgsql_tmp98956.80": No space left on device
+FATAL: PQexec() failed: 7 could not write to file "base/pgsql_tmp/pgsql_tmp98906.112": No space left on device
+FATAL: failed query was: select * from visit_reasons vr join visit v on v.id = vr.visit_id join reason r on r.id = vr.reason_id;
+FATAL: `thread_run' function failed: benchmarking.lua:13: SQL error, errno = 0, state = '53100': could not write to file "base/pgsql_tmp/pgsql_tmp98906.112": No space left on device
+FATAL: PQexec() failed: 7 could not write to file "base/pgsql_tmp/pgsql_tmp98909.124": No space left on device
+FATAL: failed query was: select * from visit_reasons vr join visit v on v.id = vr.visit_id join reason r on r.id = vr.reason_id;
+FATAL: `thread_run' function failed: benchmarking.lua:13: SQL error, errno = 0, state = '53100': could not write to file "base/pgsql_tmp/pgsql_tmp98909.124": No space left on device
+FATAL: PQexec() failed: 7 could not write to file "base/pgsql_tmp/pgsql_tmp98924.110": No space left on device
+FATAL: failed query was: select * from visit_reasons vr join visit v on v.id = vr.visit_id join reason r on r.id = vr.reason_id;
+FATAL: `thread_run' function failed: benchmarking.lua:13: SQL error, errno = 0, state = '53100': could not write to file "base/pgsql_tmp/pgsql_tmp98924.110": No space left on device
+FATAL: PQexec() failed: 7 could not write to file "base/pgsql_tmp/pgsql_tmp98992.105": No space left on device
+FATAL: failed query was: select * from visit_reasons vr join visit v on v.id = vr.visit_id join reason r on r.id = vr.reason_id;
+FATAL: `thread_run' function failed: benchmarking.lua:13: SQL error, errno = 0, state = '53100': could not write to file "base/pgsql_tmp/pgsql_tmp98992.105": No space left on device
+FATAL: PQexec() failed: 7 could not write to file "base/pgsql_tmp/pgsql_tmp98995.124": No space left on device
+FATAL: failed query was: select * from visit_reasons vr join visit v on v.id = vr.visit_id join reason r on r.id = vr.reason_id;
+FATAL: `thread_run' function failed: benchmarking.lua:13: SQL error, errno = 0, state = '53100': could not write to file "base/pgsql_tmp/pgsql_tmp98995.124": No space left on device
+FATAL: PQexec() failed: 7 could not write to file "base/pgsql_tmp/pgsql_tmp98989.80": No space left on device
+FATAL: failed query was: select * from visit_reasons vr join visit v on v.id = vr.visit_id join reason r on r.id = vr.reason_id;
+FATAL: `thread_run' function failed: benchmarking.lua:13: SQL error, errno = 0, state = '53100': could not write to file "base/pgsql_tmp/pgsql_tmp98989.80": No space left on device
+FATAL: PQexec() failed: 7 could not write to file "base/pgsql_tmp/pgsql_tmp98991.64": No space left on device
+FATAL: failed query was: select * from visit_reasons vr join visit v on v.id = vr.visit_id join reason r on r.id = vr.reason_id;
+FATAL: `thread_run' function failed: benchmarking.lua:13: SQL error, errno = 0, state = '53100': could not write to file "base/pgsql_tmp/pgsql_tmp98991.64": No space left on device
+FATAL: PQexec() failed: 7 could not write to file "base/pgsql_tmp/pgsql_tmp98964.75": No space left on device
+FATAL: failed query was: select * from visit_reasons vr join visit v on v.id = vr.visit_id join reason r on r.id = vr.reason_id;
+FATAL: `thread_run' function failed: benchmarking.lua:13: SQL error, errno = 0, state = '53100': could not write to file "base/pgsql_tmp/pgsql_tmp98964.75": No space left on device
+FATAL: PQexec() failed: 7 could not write to file "base/pgsql_tmp/pgsql_tmp98976.108": No space left on device
+FATAL: failed query was: select * from visit_reasons vr join visit v on v.id = vr.visit_id join reason r on r.id = vr.reason_id;
+FATAL: `thread_run' function failed: benchmarking.lua:13: SQL error, errno = 0, state = '53100': could not write to file "base/pgsql_tmp/pgsql_tmp98976.108": No space left on device
+FATAL: PQexec() failed: 7 could not write to file "base/pgsql_tmp/pgsql_tmp98954.77": No space left on device
+FATAL: failed query was: select * from visit_reasons vr join visit v on v.id = vr.visit_id join reason r on r.id = vr.reason_id;
+FATAL: PQexec() failed: 7 could not write to file "base/pgsql_tmp/pgsql_tmp98985.103": No space left on device
+FATAL: PQexec() failed: 7 could not write to file "base/pgsql_tmp/pgsql_tmp98952.82": No space left on device
+FATAL: `thread_run' function failed: benchmarking.lua:13: SQL error, errno = 0, state = '53100': could not write to file "base/pgsql_tmp/pgsql_tmp98954.77": No space left on device
+FATAL: failed query was: select * from visit_reasons vr join visit v on v.id = vr.visit_id join reason r on r.id = vr.reason_id;
+(last message repeated 1 times)
+FATAL: `thread_run' function failed: benchmarking.lua:13: SQL error, errno = 0, state = '53100': could not write to file "base/pgsql_tmp/pgsql_tmp98952.82": No space left on device
+FATAL: `thread_run' function failed: benchmarking.lua:13: SQL error, errno = 0, state = '53100': could not write to file "base/pgsql_tmp/pgsql_tmp98985.103": No space left on device
+FATAL: PQexec() failed: 7 could not write to file "base/pgsql_tmp/pgsql_tmp98935.124": No space left on device
+FATAL: failed query was: select * from visit_reasons vr join visit v on v.id = vr.visit_id join reason r on r.id = vr.reason_id;
+FATAL: `thread_run' function failed: benchmarking.lua:13: SQL error, errno = 0, state = '53100': could not write to file "base/pgsql_tmp/pgsql_tmp98935.124": No space left on device
+FATAL: PQexec() failed: 7 could not write to file "base/pgsql_tmp/pgsql_tmp98918.123": No space left on device
+FATAL: failed query was: select * from visit_reasons vr join visit v on v.id = vr.visit_id join reason r on r.id = vr.reason_id;
+FATAL: `thread_run' function failed: benchmarking.lua:13: SQL error, errno = 0, state = '53100': could not write to file "base/pgsql_tmp/pgsql_tmp98918.123": No space left on device
+FATAL: PQexec() failed: 7 could not write to file "base/pgsql_tmp/pgsql_tmp98916.86": No space left on device
+FATAL: failed query was: select * from visit_reasons vr join visit v on v.id = vr.visit_id join reason r on r.id = vr.reason_id;
+FATAL: `thread_run' function failed: benchmarking.lua:13: SQL error, errno = 0, state = '53100': could not write to file "base/pgsql_tmp/pgsql_tmp98916.86": No space left on device
+FATAL: PQexec() failed: 7 could not write to file "base/pgsql_tmp/pgsql_tmp98920.91": No space left on device
+FATAL: failed query was: select * from visit_reasons vr join visit v on v.id = vr.visit_id join reason r on r.id = vr.reason_id;
+FATAL: `thread_run' function failed: benchmarking.lua:13: SQL error, errno = 0, state = '53100': could not write to file "base/pgsql_tmp/pgsql_tmp98920.91": No space left on device
+FATAL: PQexec() failed: 7 could not write to file "base/pgsql_tmp/pgsql_tmp98913.121": No space left on device
+FATAL: failed query was: select * from visit_reasons vr join visit v on v.id = vr.visit_id join reason r on r.id = vr.reason_id;
+FATAL: `thread_run' function failed: benchmarking.lua:13: SQL error, errno = 0, state = '53100': could not write to file "base/pgsql_tmp/pgsql_tmp98913.121": No space left on device
+FATAL: PQexec() failed: 7 could not write to file "base/pgsql_tmp/pgsql_tmp98977.116": No space left on device
+FATAL: PQexec() failed: 7 could not write to file "base/pgsql_tmp/pgsql_tmp98969.106": No space left on device
+FATAL: failed query was: select * from visit_reasons vr join visit v on v.id = vr.visit_id join reason r on r.id = vr.reason_id;
+(last message repeated 1 times)
+FATAL: `thread_run' function failed: benchmarking.lua:13: SQL error, errno = 0, state = '53100': could not write to file "base/pgsql_tmp/pgsql_tmp98969.106": No space left on device
+FATAL: `thread_run' function failed: benchmarking.lua:13: SQL error, errno = 0, state = '53100': could not write to file "base/pgsql_tmp/pgsql_tmp98977.116": No space left on device
+FATAL: PQexec() failed: 7 could not write to file "base/pgsql_tmp/pgsql_tmp98967.123": No space left on device
+FATAL: failed query was: select * from visit_reasons vr join visit v on v.id = vr.visit_id join reason r on r.id = vr.reason_id;
+FATAL: `thread_run' function failed: benchmarking.lua:13: SQL error, errno = 0, state = '53100': could not write to file "base/pgsql_tmp/pgsql_tmp98967.123": No space left on device
+FATAL: PQexec() failed: 7 could not write to file "base/pgsql_tmp/pgsql_tmp98930.91": No space left on device
+FATAL: PQexec() failed: 7 could not write to file "base/pgsql_tmp/pgsql_tmp98994.111": No space left on device
+FATAL: failed query was: select * from visit_reasons vr join visit v on v.id = vr.visit_id join reason r on r.id = vr.reason_id;
+FATAL: PQexec() failed: 7 could not write to file "base/pgsql_tmp/pgsql_tmp98986.90": No space left on device
+FATAL: PQexec() failed: 7 could not write to file "base/pgsql_tmp/pgsql_tmp98979.119": No space left on device
+(last message repeated 1 times)
+FATAL: `thread_run' function failed: benchmarking.lua:13: SQL error, errno = 0, state = '53100': could not write to file "base/pgsql_tmp/pgsql_tmp98930.91": No space left on device
+FATAL: `thread_run' function failed: benchmarking.lua:13: SQL error, errno = 0, state = '53100': could not write to file "base/pgsql_tmp/pgsql_tmp98979.119": No space left on device
+FATAL: PQexec() failed: 7 could not write to file "base/pgsql_tmp/pgsql_tmp98931.82": No space left on device
+FATAL: PQexec() failed: 7 could not write to file "base/pgsql_tmp/pgsql_tmp98966.100": No space left on device
+FATAL: failed query was: select * from visit_reasons vr join visit v on v.id = vr.visit_id join reason r on r.id = vr.reason_id;
+(last message repeated 2 times)
+FATAL: `thread_run' function failed: benchmarking.lua:13: SQL error, errno = 0, state = '53100': could not write to file "base/pgsql_tmp/pgsql_tmp98994.111": No space left on device
+FATAL: `thread_run' function failed: benchmarking.lua:13: SQL error, errno = 0, state = '53100': could not write to file "base/pgsql_tmp/pgsql_tmp98986.90": No space left on device
+FATAL: failed query was: select * from visit_reasons vr join visit v on v.id = vr.visit_id join reason r on r.id = vr.reason_id;
+FATAL: `thread_run' function failed: benchmarking.lua:13: SQL error, errno = 0, state = '53100': could not write to file "base/pgsql_tmp/pgsql_tmp98966.100": No space left on device
+FATAL: `thread_run' function failed: benchmarking.lua:13: SQL error, errno = 0, state = '53100': could not write to file "base/pgsql_tmp/pgsql_tmp98931.82": No space left on device

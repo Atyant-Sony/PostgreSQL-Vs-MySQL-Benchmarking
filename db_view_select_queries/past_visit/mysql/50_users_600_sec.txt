@@ -1,0 +1,31 @@
+sysbench 1.0.20 (using system LuaJIT 2.1.1727870382)
+
+Running the test with following options:
+Number of threads: 50
+Initializing random number generator from current time
+
+
+Initializing worker threads...
+
+Threads started!
+
+FATAL: mysql_store_result() returned error 3 (Error writing file '/var/folders/d1/jcvj1zg50yd97ty6wk7765ch0000gp/T/MYL1s2c6' (OS errno 28 - No space left on device))
+FATAL: `thread_run' function failed: benchmarking.lua:13: SQL error, errno = 3, state = 'HY000': Error writing file '/var/folders/d1/jcvj1zg50yd97ty6wk7765ch0000gp/T/MYL1s2c6' (OS errno 28 - No space left on device)
+FATAL: mysql_store_result() returned error 3 (Error writing file '/var/folders/d1/jcvj1zg50yd97ty6wk7765ch0000gp/T/MYkCrmsT' (OS errno 28 - No space left on device))
+FATAL: `thread_run' function failed: benchmarking.lua:13: SQL error, errno = 3, state = 'HY000': Error writing file '/var/folders/d1/jcvj1zg50yd97ty6wk7765ch0000gp/T/MYkCrmsT' (OS errno 28 - No space left on device)
+FATAL: mysql_store_result() returned error 3 (Error writing file '/var/folders/d1/jcvj1zg50yd97ty6wk7765ch0000gp/T/MYmmlISn' (OS errno 28 - No space left on device))
+FATAL: mysql_store_result() returned error 3 (Error writing file '/var/folders/d1/jcvj1zg50yd97ty6wk7765ch0000gp/T/MYXR2NIz' (OS errno 28 - No space left on device))
+FATAL: `thread_run' function failed: benchmarking.lua:13: SQL error, errno = 3, state = 'HY000': Error writing file '/var/folders/d1/jcvj1zg50yd97ty6wk7765ch0000gp/T/MYXR2NIz' (OS errno 28 - No space left on device)
+FATAL: `thread_run' function failed: benchmarking.lua:13: SQL error, errno = 3, state = 'HY000': Error writing file '/var/folders/d1/jcvj1zg50yd97ty6wk7765ch0000gp/T/MYmmlISn' (OS errno 28 - No space left on device)
+FATAL: mysql_store_result() returned error 3 (Error writing file '/var/folders/d1/jcvj1zg50yd97ty6wk7765ch0000gp/T/MYhv6lBU' (OS errno 28 - No space left on device))
+FATAL: `thread_run' function failed: benchmarking.lua:13: SQL error, errno = 3, state = 'HY000': Error writing file '/var/folders/d1/jcvj1zg50yd97ty6wk7765ch0000gp/T/MYhv6lBU' (OS errno 28 - No space left on device)
+FATAL: mysql_store_result() returned error 3 (Error writing file '/var/folders/d1/jcvj1zg50yd97ty6wk7765ch0000gp/T/MYSK9Mcg' (OS errno 28 - No space left on device))
+FATAL: `thread_run' function failed: benchmarking.lua:13: SQL error, errno = 3, state = 'HY000': Error writing file '/var/folders/d1/jcvj1zg50yd97ty6wk7765ch0000gp/T/MYSK9Mcg' (OS errno 28 - No space left on device)
+FATAL: mysql_store_result() returned error 3 (Error writing file '/var/folders/d1/jcvj1zg50yd97ty6wk7765ch0000gp/T/MYacjVVt' (OS errno 28 - No space left on device))
+FATAL: `thread_run' function failed: benchmarking.lua:13: SQL error, errno = 3, state = 'HY000': Error writing file '/var/folders/d1/jcvj1zg50yd97ty6wk7765ch0000gp/T/MYacjVVt' (OS errno 28 - No space left on device)
+FATAL: mysql_store_result() returned error 3 (Error writing file '/var/folders/d1/jcvj1zg50yd97ty6wk7765ch0000gp/T/MYX77fZq' (OS errno 28 - No space left on device))
+FATAL: `thread_run' function failed: benchmarking.lua:13: SQL error, errno = 3, state = 'HY000': Error writing file '/var/folders/d1/jcvj1zg50yd97ty6wk7765ch0000gp/T/MYX77fZq' (OS errno 28 - No space left on device)
+FATAL: mysql_store_result() returned error 3 (Error writing file '/var/folders/d1/jcvj1zg50yd97ty6wk7765ch0000gp/T/MYot2Zih' (OS errno 28 - No space left on device))
+FATAL: `thread_run' function failed: benchmarking.lua:13: SQL error, errno = 3, state = 'HY000': Error writing file '/var/folders/d1/jcvj1zg50yd97ty6wk7765ch0000gp/T/MYot2Zih' (OS errno 28 - No space left on device)
+FATAL: mysql_store_result() returned error 3 (Error writing file '/var/folders/d1/jcvj1zg50yd97ty6wk7765ch0000gp/T/MYkUIp4J' (OS errno 28 - No space left on device))
+FATAL: mysql_store_result() returned error 3 (Error writing file '/var/folders/d1/jcvj1zg50yd97ty6wk7765ch0000gp/T/MYdqn9AD' (OS errno 28 - No space left on device))

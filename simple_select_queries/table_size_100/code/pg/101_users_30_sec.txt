@@ -1,0 +1,13 @@
+sysbench 1.0.20 (using system LuaJIT 2.1.1727870382)
+
+Running the test with following options:
+Number of threads: 101
+Initializing random number generator from current time
+
+
+Initializing worker threads...
+
+FATAL: Connection to database failed: connection to server at "localhost" (::1), port 5432 failed: FATAL:  sorry, too many clients already
+
+FATAL: `thread_init' function failed: benchmarking.lua:6: connection creation failed
+FATAL: Thread initialization failed!
