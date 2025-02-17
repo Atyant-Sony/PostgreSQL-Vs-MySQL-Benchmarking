@@ -3,11 +3,11 @@
 Welcome to the **PostgreSQL Vs MySQL Benchmarking** repository! 🚀 This repo contains a collection of Lua scripts tailored for **Sysbench**, a high-performance benchmarking tool for databases. These scripts help analyze database performance under different query loads.
 
 ## 📑 Table of Contents
-- [📂 Repository Structure](#repository-structure)
-- [🚀 Getting Started](#getting-started)
+- [📂 Repository Structure](#-repository-structure)
+- [🚀 Getting Started](#-getting-started)
   - [Prerequisites](#prerequisites)
   - [Running a Lua Script](#running-a-lua-script)
-- [📝 Exporting Results to a Text File](#exporting-results-to-a-text-file)
+- [📝 Exporting Results to a Text File](#-exporting-results-to-a-text-file)
 
 ## 📂 Repository Structure
 
